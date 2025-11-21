@@ -1,0 +1,13 @@
+/* src/app/app.component.css */
+
+/* :host se refere ao próprio elemento <app-root> */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa no mínimo 100% da altura da janela */
+}
+
+/* A tag <main> vai crescer e ocupar todo o espaço disponível */
+main {
+  flex: 1;
+}

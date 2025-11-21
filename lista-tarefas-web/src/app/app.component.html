@@ -1,0 +1,11 @@
+<div style="padding: 1rem; text-align: right;">
+  <button (click)="toggleTheme()">
+    Mudar para Tema {{ isDarkMode ? 'Claro' : 'Escuro' }}
+  </button>
+</div>
+
+<main>
+  <app-task-list></app-task-list>
+</main>
+
+<app-footer></app-footer>

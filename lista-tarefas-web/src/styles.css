@@ -1,0 +1,35 @@
+/* src/styles.css */
+
+/* Tema Padrão (Light) */
+:root {
+  --background-color: #f4f4f4;
+  --text-color: #333333;
+  --component-bg: #ffffff;
+  --header-bg: #e9e9e9;
+  --primary-color: #007bff;
+  --border-color: #ddd;
+}
+
+/* Tema Dark */
+body[data-theme='dark'] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --component-bg: #1e1e1e;
+  --header-bg: #2a2a2a;
+  --primary-color: #6a8dff;
+  --border-color: #444;
+}
+
+/* Estilos Globais */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.2s, color 0.2s;
+}
